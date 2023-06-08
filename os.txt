@@ -1,0 +1,23 @@
+主机：58.198.177.40
+用户名：os2022
+密码：os2022
+pdf密码：os2023
+端口：21
+
+192.168.37.128
+
+vim /etc/ssh_config
+clang main.c -o main.o
+./main.o
+
+比如：cat test.c | wc -l 这条命令：就是把 cat进程的结果交给wc进程去执行，这就是先后顺序；
+
+dup(int   filedes)函数返回一个可用的与filedes共享文件表项的最小描述符。
+
+而dup2(int filedes,int  filedes2)是使用一个描述符filedes2去指向filedes2文件表项（也是共享），但是在调用dup2之前要确保filedes2为可用描述符。
+
+
+函数定义：int execvp(const char *file, char * const argv []);
+
+函数说明：execvp()会从环境变量所指的目录中查找符合参数 file 的文件名, 找到后执行该文件, 然后将第二个参数argv 传给该执行的文件。
+
